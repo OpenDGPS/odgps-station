@@ -7,7 +7,7 @@ As described in [OpenDGPS/opendgps-doc](/opendgps/opendgps-doc) the role of a re
 
 If a new (or moved) reference station is registered on the OpenDGPS network it should be calibrated. The first calibration phase will be done automatically in the first three hours without any interaction with the network. If the administrator of the reference station confirms the coordinates of this calculation, the reference station tries to register on the OpenDGPS network with the configured API-key. If the registration is successful the station will try to get differential data to precise it's own position. Until this process is finished the station will marked as callibration level 'SELF' to permit it from sending the data for callibration purposes to other devices. 
 
-After 24h and a heuristics analysis if the data match stability tresholds the station gets the callibration level 'BASIC' and is accepted to provide data to other user devices. 
+After 24h and a heuristics analysis if the data match stability tresholds the station gets the callibration level 'BASIC' and is accepted to provide data to other user devices. The heuristic analysis will done periodically to ensure the antenna was not moved physically (i.e. by extrem weather conditions). 
 
 A station can become a 'PROOVEN' calibration level by a process where the position of the antenna and the quality (mainly stability) of the installation is manually examined by other member of the OpenDGPS network in person. Differential data from PROOVEN reference stations have a higher impact by the calculation of the differential data provided to the user.
 
