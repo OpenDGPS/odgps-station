@@ -9,7 +9,7 @@ If a new (or moved) reference station is registered on the OpenDGPS network it s
 
 After 24h and a heuristics analysis if the data match stability tresholds the station gets the callibration level 'BASIC' and is accepted to provide data to other user devices. 
 
-A station can become a 'PROOVEN' calibration level by a process where the poosition of the antenna and the quality (mainly stability) of the installation is manually examined by other member of the OpenDGPS network in person. Differential data from PROOVEN reference stations have an highe impact by the calculation of the differential data provided to the user.
+A station can become a 'PROOVEN' calibration level by a process where the position of the antenna and the quality (mainly stability) of the installation is manually examined by other member of the OpenDGPS network in person. Differential data from PROOVEN reference stations have a higher impact by the calculation of the differential data provided to the user.
 
 ### Notes about privacy
 
